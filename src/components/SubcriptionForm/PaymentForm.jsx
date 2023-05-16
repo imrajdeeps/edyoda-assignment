@@ -108,10 +108,12 @@ function PaymentForm() {
         <div className="d-flex gap-1">
           <Button text="CANCEL" classes={"cancelBtn col col-md-6"} />
           <button
-            value="PROCEED TO PAY"
+            type="submit"
             className={"confirmBtn col col-md-6"}
             onClick={() => alert("Payment Successful!")}
-          />
+          >
+            PROCEED TO PAY
+          </button>
         </div>
 
         <img src="assets/razor.svg" alt="razorPay" height={60} />
