@@ -1,0 +1,61 @@
+.radioInputBox {
+  display: flex;
+  padding: 0px 0.5rem;
+  height: 2.8rem;
+  border: 1px solid #bebebe;
+  margin-bottom: 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.radioInputBox label {
+  font-size: 11px;
+}
+
+.radioInputBox input:checked {
+  background-color: #47ba68;
+}
+
+.recommend {
+  background-color: #d7eddd;
+  border: 2px solid #47ba68;
+}
+
+.flag {
+  position: absolute;
+  left: 48px;
+  font-size: 0.6rem;
+  padding: 0px 1rem;
+  border-radius: 4px;
+}
+
+.expirePlan {
+  background: #e7e7e7;
+}
+
+.subscription {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 1rem;
+}
+
+.cancelBtn {
+  border: 1px solid rgba(247, 113, 113, 1);
+  color: rgba(247, 113, 113, 1);
+  padding: 0.64rem 2rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 0.7rem;
+}
+
+.confirmBtn {
+  border: 1px solid #47ba68e0;
+  border-radius: 4px;
+  background-color: #47ba68;
+  padding: 0.625rem 2rem;
+  color: white;
+  font-size: 0.7rem;
+}

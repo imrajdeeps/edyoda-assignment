@@ -1,0 +1,14 @@
+.btn-text {
+  font-size: 0.75rem !important;
+}
+
+.btn-primary {
+  border-radius: 50px !important;
+  padding: 4px 1.4rem !important;
+  font-size: 0.75rem !important;
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+}
+
+.navBar {
+  background-color: white;
+}
